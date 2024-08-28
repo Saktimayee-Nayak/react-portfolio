@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
+// import resume from './assets/SaktimayeeNayak__CV.pdf'
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       {/* Minimalist Text-Based Logo */}
       <div className="flex flex-shrink-0 items-center">
         <h1 className="text-3xl font-semibold text-white">
-          Sm
+        S<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">m.</span>
         </h1>
       </div>
 
@@ -35,7 +36,7 @@ const Navbar = () => {
             <FaGithub />
           </motion.a>
           <motion.a 
-            href="https://www.instagram.com/your-instagram-profile" 
+            href="https://www.instagram.com/its_sakti_22?igsh=OXkxa2R5Y25hOHNz" 
             target="_blank" 
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 10 }}
@@ -46,15 +47,17 @@ const Navbar = () => {
         </motion.div>
         
         <motion.a 
-          href="assets/projects/SaktimayeeNayak___CV-Copy.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-          className="ml-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors duration-300"
-        >
-          Resume
-        </motion.a>
+  href="/assets/documents/Saktimayee Nayak- CV.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  download="Saktimayee Nayak- CV.pdf" 
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.95 }}
+  className="ml-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors duration-300"
+>
+  Resume
+</motion.a>
+
       </div>
     </nav>
   );

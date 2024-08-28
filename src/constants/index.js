@@ -77,7 +77,7 @@ export const PROJECTS = [
     description:
       "A Training and Placement Management System designed for educational institutions, developed with React.js on the frontend and Spring Boot on the backend. This system streamlines the management of student training programs and placement activities, providing an efficient interface for students, administrators, and companies.",
     technologies: [ "React.js", "SpringBoot", "mySQL", "Github"],
-    videoUrl: "https://www.youtube.com/embed/video_id1", // Video URL here
+    videoUrl: "https://www.youtube.com/embed/video_id1", 
   },
   {
     title: "Student Mentoring Management System",
